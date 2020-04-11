@@ -1,0 +1,23 @@
+{
+  "name": "twitch-points-hue",
+  "version": "1.0.0",
+  "description": "Channel points redeem light colours",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn ./src/pubsub.ts",
+    "prod": "tsc && node ./build/pubsub.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "@types/ws": "^7.2.3",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-hue-api": "^4.0.5",
+    "ws": "^7.2.3"
+  }
+}
