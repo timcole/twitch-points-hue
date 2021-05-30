@@ -18,6 +18,6 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "node-hue-api": "^4.0.5",
-    "ws": "^7.2.3"
+    "ws": "^7.4.6"
   }
 }
